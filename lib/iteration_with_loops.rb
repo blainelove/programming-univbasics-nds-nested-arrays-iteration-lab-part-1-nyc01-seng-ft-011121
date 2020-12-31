@@ -3,6 +3,8 @@ def find_even_values(src)
   while count < src.count do
     in_count = 0
     while in_count < src[count].count do
+      if scr[count][in_count].even?
+        p src[count][in_count]
       in_count += 1
     end
     count += 1
